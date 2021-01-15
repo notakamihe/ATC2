@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7632858950424804346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7632858950424804344}
+  - component: {fileID: 7632858950424804345}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7632858950424804344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7632858950424804346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6432412, y: -2.4116068, z: 32.71303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7632858950424804345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7632858950424804346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481baf9b0acc663468fffc18e69e08b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: a42af305ea44fb040a7da01d4b98a012, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Algorithm
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 4ab1df72438a5844cb38b97b3201105c, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Katana
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 4f43741c9863db64e946e9aaddb0ed61, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Flower
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 84b76437cd395574c81a0fc24c846051, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Driving
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 68ad958f76a21554bbae18c31436d480, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Life
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 2020def86e3b67648bcfff15bc10d49b, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Future
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: f9005b3d44021bd4a92705d2a0d87d46, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Metaphor
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: a289fcb4d22474c4ba961898c9cda5e0, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Fes
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 3600d85d47bb0244fba40e63c972aba4, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    spatialBlend: 0
+    name: Moments
+    loop: 1
+    enabled: 1
+  - clip: {fileID: 8300000, guid: 62415406d448d184b941c0b9a04b51bb, type: 3}
+    source: {fileID: 0}
+    volume: 0.51
+    pitch: 1
+    spatialBlend: 0
+    name: ButtonClick
+    loop: 0
+    enabled: 1
+  startMusicName: 
+  startMusic: 1
